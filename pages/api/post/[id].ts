@@ -2,6 +2,7 @@ import prisma from '../../../lib/prisma';
 
 // DELETE /api/post/:id
 export default async function handle(req, res) {
+  
   const { url } = req.query;
   try {
     // Make a GET request to the provided URL
